@@ -15,3 +15,4 @@ def great(a, b):
 a = 9
 b = 8
 gmen(a, b)  # Function call
+great(a, b)
