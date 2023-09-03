@@ -16,3 +16,9 @@ a = 9
 b = 8
 gmen(a, b)  # Function call
 great(a, b)
+
+
+#if you want declare the function and want to define it ater then you can write pass into the function
+def isLesser(a,b ):
+    pass
+
