@@ -23,7 +23,7 @@ else:
     print("Alexa, do not add apples to the cart")
 
 # elif statement
-if(budget - applePrice >50):
+if (budget - applePrice > 50):
     print("Alexa, add 1kg apple to the cart")
 elif applePrice - budget > 70:
     print("it's ok you can add apples")

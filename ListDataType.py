@@ -26,7 +26,6 @@ if "afal" in "safal":
 else:
     print("no")
 
-
 # To print the whole elements of a list
 print(marks)
 print(marks[:])
@@ -34,8 +33,8 @@ print(marks[1: 4])
 print(marks[1: 4: 2])
 
 # # ----- List Comprehension ---
-lst = [i*i for i in range(4)]
+lst = [i * i for i in range(4)]
 print(lst)
 
-lst = [i for i in range(10) if i%2 == 0]
+lst = [i for i in range(10) if i % 2 == 0]
 print(lst)

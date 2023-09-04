@@ -1,4 +1,4 @@
-tup = (1,5,6,"sfal")
+tup = (1, 5, 6, "sfal")
 print(tup)
 print(type(tup))
 

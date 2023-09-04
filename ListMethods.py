@@ -22,8 +22,10 @@ print(l.index(2))  # returns the index of the argument
 print(l.count(2))  # returns the number of how many times an element exists in the list
 
 m = l
-m[0] = 5  # --| both l and m pointing at the same memory location that's why if we make any change in the m it will change the l automatically.
-print(l)  # --| both l and m pointing at the same memory location that's why if we make any change in the m it will change the l automatically.
+m[
+    0] = 5  # --| both l and m pointing at the same memory location that's why if we make any change in the m it will change the l automatically.
+print(
+    l)  # --| both l and m pointing at the same memory location that's why if we make any change in the m it will change the l automatically.
 
 # if you want to make a fresh list with the values of another list.
 a = l.copy()

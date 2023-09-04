@@ -1,11 +1,9 @@
 name = "safal"
 friend = 'sudarshan'
 
-
 a = "he wants to \"eat\" apple"
 
 print(a)
-
 
 # multyline string
 # a = "hay are you ok,      #will throw an error
@@ -19,7 +17,6 @@ a = """ Hay are you ok
 print(name[0])
 print(name[1])
 print(name[2])
-
 
 # to print all characters
 for ch in a:

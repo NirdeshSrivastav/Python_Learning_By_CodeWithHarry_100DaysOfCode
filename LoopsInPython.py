@@ -31,9 +31,8 @@ for i in range(1, 9):
 for i in range(20001):
     print(i)
 
-for i in range(1, 10, 3):   # third parameter will set the steps where it will print every kth element only.
-    print(i)                # In this it will print 1 4 7.
-
+for i in range(1, 10, 3):  # third parameter will set the steps where it will print every kth element only.
+    print(i)  # In this it will print 1 4 7.
 
 i = 1
 while i < 3:

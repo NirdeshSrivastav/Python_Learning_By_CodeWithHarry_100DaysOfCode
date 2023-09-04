@@ -30,9 +30,9 @@ y = int(input("Enter the second number"))
 
 match op:
     case '+':
-        print("Sum = ",(x + y))
+        print("Sum = ", (x + y))
     case '-':
-       print("Subtraction = ", (x - y))
+        print("Subtraction = ", (x - y))
     case '*':
         print("Multiplication = ", (x * y))
     case '/':

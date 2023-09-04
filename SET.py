@@ -8,19 +8,19 @@ print(set1)
 print(id(set1))
 
 # If we add duplicate data in the set it automatically eliminates all the duplicate data
-char = {1,2,3,4,3,2,4,5,6}
+char = {1, 2, 3, 4, 3, 2, 4, 5, 6}
 print(char)
 
-char = {'aa','bb','cc'}
+char = {'aa', 'bb', 'cc'}
 print(char)
 
 char = {'apple'}
 print(char)
 
-char = {'a','p','p','l','e'}
+char = {'a', 'p', 'p', 'l', 'e'}
 print(char)
 
-char = {'a','p','p','l','e'}
+char = {'a', 'p', 'p', 'l', 'e'}
 print(char)
 
 # we can create a set object
@@ -32,9 +32,7 @@ colourS.add("yellow")
 print(colourS)
 
 fruits = set()
-fruits.update([1,2,3,4])
+fruits.update([1, 2, 3, 4])
 fruits.update(["safal"])
 # fruits.add(9,8) Error add takes only one argument
 print(fruits)
-
-
