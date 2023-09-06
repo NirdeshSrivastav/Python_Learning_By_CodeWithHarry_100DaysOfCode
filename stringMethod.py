@@ -82,7 +82,7 @@ print(str1.islower())  # false
 # isprintable() checks that the string contains only printable character or not
 str1 = "abdc"
 print(str1.isprintable())  # true
-str1 = "abdc\n"
+str1 = 'adc\n'
 print(str1.isprintable())  # false
 
 # isspace() checks that string contains whitespaces
