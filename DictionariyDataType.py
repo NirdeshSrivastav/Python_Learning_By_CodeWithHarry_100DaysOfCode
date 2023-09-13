@@ -25,6 +25,8 @@ print(info.keys())
 
 # to get all the values from the dictionaries
 print(f"The values of the corresponding keys are = {info.values()}")
+a = info.values()
+print(f"here it is = {type(a)}")
 
 # to iterate only on the keys of the dictionary
 for key in info.keys():
